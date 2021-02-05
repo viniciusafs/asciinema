@@ -1,0 +1,24 @@
+#para sincronizar a maquina com o perfil no website
+asciinema auth in 
+
+#para instalar no RH
+git clone https://github.com/asciinema/asciinema.git
+cd asciinema
+python3 -m asciinema --version
+#inatall
+sudo pip3 install asciinema
+
+#gravar
+asciinema rec #nome
+
+#upload
+asciinema upload #nome
+
+#Roda tudo que foi gravado no terminal
+asciinema play <filename>
+
+#Copia para o terminal
+asciinema cat <filename> dumps the full output (including all escape sequences) to a terminal immediately.
+
+#ID linkado a um email
+$HOME/.config
